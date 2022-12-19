@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/scripts/styles.css" />
+    <title>Conversor de Algarismos</title>
+  </head>
+  <body>
+    
+    <h1>CONVERSOR DE NÚMEROS</h1>
+    <br />
+    <div id="container">
+      <table id="center">
+        <caption></caption>
+        <br /><br />
+        <th>
+          <tr>
+            <input id="arabico" type="number" placeholder="Decimal" />
+          </tr>
+          <tr>
+            <input id="algromano" type="text" placeholder="Romano" />
+          </tr>
+          <tr>
+            <button id="btnr" onclick="convArabico()">Converter</button>
+          </tr>
+        </th>
+      </table>
+      <br />
+      <div id="meio"></div>
+      <br />
+      <br />
+      <table id="center">
+        <caption></caption>
+        <th>
+          <tr>
+            <input id="romano" type="text" placeholder="Romano" />
+          </tr>
+          <tr>
+            <input id="decimal" type="number" placeholder="Decimal" />
+          </tr>
+          <tr>
+            <button id="btnr" onclick="convRomano()">Converter</button>
+          </tr>
+        </th>
+        <br /><br />
+      </table>
+    </div>
+    
+    <div>
+      <div>
+        <h2>Números Romanos</h2>
+        <img id="img" src="./assets/img/romanos.jpg" alt="numeros" />
+      </div>
+    </div>
+    <script type="text/javascript" src="./assets/scripts/script.js"></script>
+  </body>
+</html>

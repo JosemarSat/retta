@@ -1,0 +1,114 @@
+body {
+  text-align: center;
+  background-color: #158879;
+}
+
+#container {
+  border: 2px solid black;
+  box-shadow: 2px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#meio {
+  border: 1px solid black;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#arabico {
+  width: 20rem;
+  font-size: 1.3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#arabico:hover {
+  font-size: 1.5rem;
+  border-radius: 10%;
+  background-color: red;
+  color: white;
+  font-style: bold;
+}
+
+#romano {
+  width: 20rem;
+  font-size: 1.3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#romano:hover {
+  border-radius: 10%;
+  background-color: red;
+  color: white;
+  font-style: bold;
+}
+
+#algromano {
+  width: 20rem;
+  font-size: 1.3rem;
+  margin-left: 2vh;
+  text-align: center;
+}
+
+#algromano:hover {
+  color: black;
+  font-style: bold;
+}
+#decimal {
+  width: 20rem;
+  font-size: 1.3rem;
+  margin-left: 2vh;
+  text-align: center;
+}
+
+#btnr {
+  text-align: center;
+  width: 20vh;
+  font-size: 1.3rem;
+  margin-left: 2vh;
+  border-radius: 20%;
+  border: 3px solid rgb(216, 83, 6);
+  color: rgba(228, 0, 0, 0.932);
+  font-style: bold;
+  text-align: center;
+}
+
+#btnr:hover {
+  font-size: 1.5rem;
+  width: 25vh;
+  border-radius: 15%;
+  background-color: red;
+  color: white;
+  font-style: bold;
+}
+
+#img {
+  width: 100vh;
+  height: 40vh;
+}
+
+@media (max-width: 1100px) {
+  #img {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  #arabico,
+  #romano,
+  #algromano,
+  #decimal,
+  #btnr,
+  #container,
+  #meio {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  h1 h2 input {
+    max-width: 100%;
+  }
+}
