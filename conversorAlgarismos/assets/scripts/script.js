@@ -139,7 +139,7 @@ function convRomano() {
         return;
     }
     
-    for (let r = 0; r <= tam; r++) {
+    for (let r = 0; r < tam; r++) {
         if (r < tam) {
             control = entrada[ r + 1];            
         }
@@ -167,6 +167,6 @@ function convRomano() {
     }
     //resultado.innerHTML = "Equivale aos Algarismos Arábicos :" + soma;
     document.getElementById("decimal").value = soma;
-    alert(soma);
+    
     
 }
