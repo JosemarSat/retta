@@ -165,8 +165,8 @@ function convRomano() {
         }
         
     }
-    //resultado.innerHTML = "Equivale aos Algarismos Arábicos :" + soma;
+    
     document.getElementById("decimal").value = soma;
-    alert(soma);
+    
     
 }
