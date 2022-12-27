@@ -166,7 +166,9 @@ function convRomano() {
       }
       if (soma === 0) {
         alert("Digite um algarismo romano !!!.  ('I', 'V', 'X', 'L', 'C', 'D', 'M')");
-      return;
+        document.getElementById("romano").value = '';
+        document.getElementById("decimal").value = '';
+        return;
       } 
   }
   
